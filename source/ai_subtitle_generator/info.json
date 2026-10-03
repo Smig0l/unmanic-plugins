@@ -1,0 +1,15 @@
+{
+  "author": "Smig0l",
+  "compatibility": [2],
+  "description": "Extract audio, remove silence with Silero VAD, transcribe with Whisper-large-v3 or Parakeet-tdt-0.6b-v3, and generate an SRT subtitle file.",
+  "icon": "",
+  "id": "ai_subtitle_generator",
+  "name": "Subtitle Generator (VAD + Whisper/Parakeet)",
+  "platform": ["all"],
+  "priorities": {
+    "on_library_management_file_test": 10,
+    "on_worker_process": 1
+  },
+  "tags": "subtitle, ffmpeg, whisper, parakeet, vad",
+  "version": "1.1.0"
+}
